@@ -1,0 +1,33 @@
+.header {
+	background-color: var(--color-dark);
+	padding-top: 30px;
+
+	&__inner {
+		display: flex;
+		align-items: center;
+		column-gap: 205px;
+
+		@include tablet {
+			justify-content: space-between;
+			column-gap: 100px;
+		}
+	}
+
+	&__menu {
+		&-list {
+			display: flex;
+			align-items: center;
+			align-self: start;
+			column-gap: 29px;
+		}
+
+		&-link {
+			font-size: 16px;
+			font-style: italic;
+			display: inline-flex;
+			align-items: center;
+			height: 58px;
+			text-transform: uppercase;
+		}
+	}
+}

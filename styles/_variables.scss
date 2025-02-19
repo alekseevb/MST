@@ -1,0 +1,23 @@
+:root {
+	--color-dark: #222;
+	--color-gray: #282829;
+	--color-green: #38535d;
+	--color-light: #fff;
+	--color-border: #d5c9be;
+
+	--border: 2px solid var(--color-border);
+	--border-radius: 4px;
+	--border-radius-large: 30px;
+
+	--font-family-accent: 'Prata', arial;
+
+	--container-width: 1597px;
+	--container-padding-x: 20px;
+
+	--container-padding-y: 100px;
+
+	--input-height: 65px;
+	--button-height: 78px;
+
+	--transition-duration: 0.2s;
+}
